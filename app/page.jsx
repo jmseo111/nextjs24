@@ -1,5 +1,7 @@
+import Navigation from "./components/navigation"
+
 export default function Tomato (){
-    return <h1>he next js </h1>
+    return <Navigation></Navigation>
 }
 
 //nextjs 는 프레임워크
@@ -9,3 +11,4 @@ export default function Tomato (){
 // LICENSE : MIT
 //APP>PAGE.JSX OR TSX (NAME MUST BE APP. PAGE)
 //REACT IMPORT 해주지 않아도 도미. 넥스트가 알아서 제공해줌.
+// routing - 폴더 만들어주면 됨.
